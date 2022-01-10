@@ -40,10 +40,6 @@
 
     <target name="rebuild" depends="clean,build" description="rebuild application"/>
 
-</project>
-
-<project name="Simple Project analyzed with the SonarQube Scanner for Ant" default="all" basedir="." xmlns:sonar="antlib:org.sonar.ant">
-
 	<!-- ========= Define the main properties of this project ========= -->
 	<property name="src.dir" value="src" />
 	<property name="build.dir" value="target" />
